@@ -43,8 +43,7 @@ body {
   height: 140px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
-   overflow-y: auto;
+  overflow-y: hidden;
   padding: 10px; /* Adds padding for better visibility */
 }
 
@@ -55,7 +54,7 @@ color:${({theme})=>theme.typeBoxTest}
   display: flex;
   flex-wrap: wrap;
   line-height: 1;
- 
+  
    /* Ensures proper spacing between lines */
 }
 
