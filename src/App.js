@@ -14,6 +14,7 @@ import { TestModeContextProvider } from './Contexts/TestModeContext';
 import { WordCountContextProvider } from './Contexts/WordCountContext';  // Import WordCount context
 
 const App = () => {
+  document.title = "Pro-To-Type";
   const { theme } = useTheme();
   return (
     <ThemeProvider theme={theme}>
